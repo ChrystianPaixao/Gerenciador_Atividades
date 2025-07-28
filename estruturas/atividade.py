@@ -11,4 +11,4 @@ class Atividade:
         return self.prioridade < other.prioridade
 
     def __str__(self):
-        return f"{self.titulo}, {self.descricao}, {self.prioridade}"
+        return f"{self.id} Titulo - {self.titulo},   Descricao - {self.descricao},  Prioridade - {self.prioridade}"

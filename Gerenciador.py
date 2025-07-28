@@ -17,7 +17,7 @@ class Gerencia:
 
         self.fila.append_(novo)
         self.heap.append_(novo)
-        print(f"Nova Atividade {titulo}, foi adicionado com sucesso! ")
+        print(f"\n Nova Atividade {titulo}, foi adicionado com sucesso! ")
 
     
     def listando_atividades(self):
