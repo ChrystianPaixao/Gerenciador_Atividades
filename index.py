@@ -1,7 +1,7 @@
 from Gerenciador import Gerencia
 
 def index():
-
+    #chamando a class gerencia 
     Geren = Gerencia()
 
     while True:
