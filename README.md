@@ -11,9 +11,9 @@ Além de refletir uma necessidade real do dia a dia, o tema permitiu aplicar con
 
 ## Estruturas utilizadas.
 
-Fila: a fila foi utilizada para armazenar as atividades que eram descritas para o usuário. 
-Heap: o heap armazena de forma prioritária as atividades que mereciam mais atenção descrita pelo usuário.
-Lista encadeada: conforme as atividades eram concluídas, a lista encadeada servia mais como um histórico que guardava as informações das atividades já feitas.
+  1. Fila: a fila foi utilizada para armazenar as atividades que eram descritas para o usuário. 
+  2. Heap: o heap armazena de forma prioritária as atividades que mereciam mais atenção descrita pelo usuário.
+  3. Lista encadeada: conforme as atividades eram concluídas, a lista encadeada servia mais como um histórico que guardava as informações das atividades já feitas.
 
 
 ## Desafios enfrentados e soluções encontradas.
