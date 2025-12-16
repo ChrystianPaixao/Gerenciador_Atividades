@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Atividade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Adicionar Nova Atividade</h1>
+        <form method="POST">
+            <label for="titulo">Título da Atividade:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+
+            <label for="prioridade">Prioridade:</label>
+            <select id="prioridade" name="prioridade" required>
+                <option value="1">1 - Alta</option>
+                <option value="2">2 - Média</option>
+                <option value="3">3 - Baixa</option>
+            </select>
+
+            <button type="submit" class="button">Adicionar Atividade</button>
+        </form>
+        <br>
+        <a href="{{ url_for('index') }}" class="button back">Voltar</a>
+    </div>
+</body>
+</html>

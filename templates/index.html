@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Atividades</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Atividades</h1>
+        <div class="menu">
+            <a href="{{ url_for('adicionar') }}" class="button">Adicionar Atividade</a>
+            <a href="{{ url_for('concluir') }}" class="button">Concluir Atividade de Maior Prioridade</a>
+            <a href="{{ url_for('listar_prioridade') }}" class="button">Listar Atividades por Prioridade</a>
+            <a href="{{ url_for('listar_atividades') }}" class="button">Listar Todas as Atividades</a>
+            <a href="{{ url_for('historico') }}" class="button">Ver Histórico de Atividades Concluídas</a>
+        </div>
+        <div class="output">
+            <p>Bem-vindo ao Gerenciador de Atividades. Clique nas opções acima.</p>
+        </div>
+    </div>
+</body>
+</html>
